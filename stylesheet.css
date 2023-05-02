@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::-ms-input-placeholder {
+    color: red;
+  }
+
+.navbar-nav li a {
+    color: #fff;
+    border-width: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: center;
+    width: 90px;
+}
+.navbar-nav li a:hover{
+    background-color: white;
+}
+
+
+#education{
+  display: none;
+}
+#contact{
+  display: none;
+}
+
+#abouts{
+  display: none;
+}
+#service{
+  display: none;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(3px);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter:blur(0);
+}
+
+
+.form-control.glow::placeholder {
+    color: #ffffff;
+    opacity: 1;
+    animation: placeholder-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes placeholder-glow {
+    0% {
+      text-shadow: 0 0 10px #ffffff;
+    }
+    50% {
+      text-shadow: 0 0 20px #ffffff;
+    }
+    100% {
+      text-shadow: 0 0 10px #ffffff;
+    }
+  }
+
+  .carousel-caption{
+    background-color: black;
+    color: white;
+  }
+ 
+  .carousel-item img {
+    object-fit: contain !important;
+    max-height: 3000px !important;
+    
+  }
+
+
+  
